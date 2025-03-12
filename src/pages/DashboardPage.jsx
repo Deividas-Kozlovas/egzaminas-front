@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import QuestionTableComponent from "../components/QuestionTableComponent";
 
 
 const DashboardPage = () => {
@@ -25,7 +26,7 @@ const DashboardPage = () => {
     <div className="container mt-5">
       <>
         <h2 className="mb-4">Dashboard</h2>
-       
+        <QuestionTableComponent />
       </>
     </div>
   );
